@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "newman": "newman run collection.json"
+    "test": "concurrently \"jest\" \"newman run collection.json\""
   },
   "repository": {
     "type": "git",
