@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "newman run collection.json"
+    "test": "jest",
+    "postman": "newman run collection.json"
   },
   "repository": {
     "type": "git",
