@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "postman": "newman run collection.json"
+    "newman": "newman run collection.json"
   },
   "repository": {
     "type": "git",
