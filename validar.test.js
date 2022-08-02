@@ -5,5 +5,5 @@ test ('email -> true',()=>{
 })
 
 test ('email -> jtrue',()=>{
-    expect(validar.isValido('email3')).toBe(true);
+    expect(validar.isValido('email3')).toBe(false);
 })
